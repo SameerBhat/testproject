@@ -1,0 +1,71 @@
+/*
+Theme Name: IBA
+Theme URI: https://theiba.net/themes/iba/
+Author: Independent Buyers Association 
+Author URI: https://theiba.net/
+Description: IBA is a modernized take on an ever-popular WordPress layout.
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License : MIT
+Tags: IBA, Association
+Text Domain: iba
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/*--------------------------------------------------*/
+
+
+
+
+.inner-area{ display:block; overflow:hidden; clear:both; background:url(../images/inner-background.jpg) center top no-repeat; background-size:100%;}
+.inner-head{ display:block; text-align:center; padding:40px 0 25px; color:#fff;}
+.inner-head h1{ font-size:24px; line-height:1.5; display:block; padding-bottom:15px; margin-bottom:15px; border-bottom:1px rgba(255,255,255,0.2) solid;}
+
+.inner-head ul{ padding:0; margin:0;}
+.inner-head ul li{ display:inline-block; padding:0px 5px; font-size:13px; color:rgba(255,255,255,0.8)}
+.inner-head ul li a{ color:rgba(255,255,255,0.6);}
+.inner-head ul li a:hover{ color:#e92027;}
+
+.inner-content-box{ display:block; overflow:hidden; background:#fff; padding:40px 40px 30px; font-size:15px;
+-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+}
+.inner-content-box p{ display:block; overflow:hidden; text-align:justify; margin-bottom:20px;}
+.inner-content-box h2{ display:block; overflow:hidden; margin-bottom:15px; font-size:20px; padding:2px 0 2px 15px; border-left:4px #ffba00 solid;}
+.inner-content-box h3{ font-size:16px; color:#111; display:block; margin-bottom:15px;}
+.inner-content-box a{text-decoration:underline;}
+
+
+.inner-banner{ display:block; margin-bottom:35px;}
+.inner-banner img{ width:100%; max-width:100%}
+
+
+
+.enquiry-area {background:#f3f3f3; padding:25px 15px;}
+.enquiry-area label {font-size:13px;}
+.enquiry-area.form-control{border-radius:0; border:none; font-size:13px;}
+.enquiry-area .form-control::placeholder{color:rgba(0,0,0,0.6); font-size:13px;}
+.enquiry-area .btn-bg{ font-weight:600; text-transform:uppercase; display:block; clear:both; color:#111; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffd65e+0,febf04+100;Yellow+3D+%232 */
+background: rgb(255,214,94); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(255,214,94,1) 0%, rgba(254,191,4,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(255,214,94,1) 0%,rgba(254,191,4,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(255,214,94,1) 0%,rgba(254,191,4,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd65e', endColorstr='#febf04',GradientType=0 ); /* IE6-9 */ padding:10px 32px; margin-bottom:35px;}
+.enquiry-area .btn-bg:hover{ background:#111; color:#fff}
+
+.enquiry-area h4{ font-size:20px; }
+.enquiry-area h5{ font-size:15px; color:#273178}
+
+.enquiry-area ul{ display:block; clear:both; padding:5px; margin:0; list-style-type:none; background:#211f20;}
+.enquiry-area ul li{ font-size:14px; display:inline-block; color:#fff; line-height:1; padding:5px; vertical-align:middle}
+.enquiry-area ul li i{ color:#f50c0c; font-size:25px; line-height:1;}
+.enquiry-area ul li a{ color:#fff;}
+.enquiry-area ul li a:hover{color:#ffcc33;}
+.logo-area-sp{ display:block; text-align:center; position:relative; margin:0 auto; top:-60px; margin-bottom:-30px}
+
+
+.profile-area-sp h3{display:block; overflow:hidden; margin-bottom:15px; font-size:16px; padding:2px 0 2px 15px; border-left:4px #ffba00 solid;}

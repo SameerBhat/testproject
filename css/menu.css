@@ -1,0 +1,87 @@
+.iba-nav{
+	padding: 0;
+}
+
+.iba-nav .login-menu .login-form{
+	background: #e4e4e4;
+	padding: 10px;
+	align-items: center;
+	width: 70%;
+}
+
+.iba-nav .login-menu input,.login-menu button{
+	border-radius: 0;
+	border: none;
+}
+
+.iba-nav .login-menu .login-button, .iba-nav .register-button{
+	border:none;
+	border-radius: 0;
+}
+
+.iba-nav .login-menu .login-button{
+	background: #818181;
+	text-transform: uppercase;
+	font-weight: 700;
+	color:white;
+	padding:7px;
+}
+
+.iba-nav .login-menu  .register-button{
+	background: #ffcc33;
+	color: #111;
+	line-height: 2.5;
+}
+
+.iba-nav ul.navigation-menu li{
+	padding: 10px;
+}
+
+.iba-nav ul.navigation-menu li a{
+	text-transform: uppercase;
+	color:#29333d;
+}
+
+
+.iba-nav ul.navigation-menu li.active,.iba-nav ul.navigation-menu li:hover{
+	background: #ffcc33;
+}
+
+.iba-nav ul.navigation-menu li.active a,.iba-nav ul.navigation-menu li:hover a{
+	color:#111;
+}
+
+.iba-nav ul.navigation-menu li:last-child{
+	background: linear-gradient(to bottom, #7a7a7a 0%,#3a393a 100%);
+}
+
+.iba-nav ul.navigation-menu li:last-child a{
+	color: white;
+}
+
+.iba-nav .login-menu .login-button .fa, .iba-nav ul.navigation-menu li:last-child .fa{
+	margin-right: 10px;
+}
+
+.iba-nav img.logo{
+	width:73px;
+}
+
+
+@media (max-width: 991px){
+  .iba-nav .login-menu .login-form {
+       width:100%;
+       margin-left: 0 !important;
+   }
+   .iba-nav .login-menu .register-button{
+   		max-width: 100%;
+   		background: linear-gradient(to bottom, #7a7a7a 0%,#3a393a 100%);
+   		color:white;
+   }
+}
+
+@media (max-width: 575px){
+ .iba-nav .container{
+ 	max-width: 90%;
+ }
+}
