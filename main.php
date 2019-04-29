@@ -8,10 +8,7 @@
  * @subpackage iba_theme
  * @since iba 1.0
  */
- get_header();
- 
- die("hello");
- ?>
+ get_header(); ?>
 <!-- Header End -->
 
 
