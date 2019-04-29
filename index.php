@@ -8,6 +8,8 @@
  * @subpackage iba_theme
  * @since iba 1.0
  */
+
+ 
 get_header(); ?>
 <?php if ( have_posts() ) : ?>
  <?php $image = get_field('add_background_image'); ?>

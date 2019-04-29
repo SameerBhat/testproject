@@ -8,8 +8,12 @@
  * @subpackage iba_theme
  * @since iba 1.0
  */
- get_header(); ?>
+ get_header();
+ 
+ die("hello");
+ ?>
 <!-- Header End -->
+
 
 <!-- Slider --> 
 <div class="project-slider">
