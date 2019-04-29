@@ -61,7 +61,8 @@
             <ul class="navbar-nav login-menu w-100">
 				
       	
-				<?php if ( is_user_logged_in() ) { ?>
+				
+			<?php if ( is_user_logged_in() ) { ?>
 				
 				<div class="ml-auto" >
           		<?php $user = wp_get_current_user();?>
@@ -80,30 +81,21 @@
 				</strong> </span>
 				<span class="userlogout"><?php wp_loginout( home_url() );?></span>
 				</div>
-				<? } else{ ?>
-		
-				<form class="login-form form-row ml-auto" action="<?php echo site_url( '/wp-login.php' ); ?>" method="post">
-		
-					
-                       <input type="hidden" value="<?php echo get_permalink('140'); ?>" name="redirect_to">
-					<input type="hidden" value="1" name="logincookie">
-      						    <div class="col-4">
-      						      <input type="text" name="log" class="form-control" placeholder="username">
-      						    </div>
-      						    <div class="col-4">
-      						      <input type="password" name="pwd" class="form-control" placeholder="password">
-      						    </div>
-      						    <div class="col-4">
-      						      <button  type="submit" class="btn btn-block login-button"><span class="fa fa-lock"></span>Login</button>
-      						    </div>
-						
-      					</form> 
-						
+				<? }else{
+
+				?>
+
+
+	                    <a data-toggle="modal" data-target="#loginModal" class="nav-link btn btn-block register-button offset-md-11 col-1" href="#">Login</a>
 				
-				<?}?>
+
+				<?php 
 				
-	                    <a class="nav-link btn btn-block register-button col-3" href="#">Become a Member</a>
+				}
+
+
 				
+				?>
 			     </ul>
 			
             <ul class="navbar-nav ml-auto navigation-menu">
@@ -134,4 +126,7 @@
     </div>
 </nav>
 	</div>
+
+
+
 	

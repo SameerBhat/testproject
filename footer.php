@@ -9,6 +9,58 @@
  * @since iba 1.0
  * */
 ?>
+
+
+	<!-- Modal -->
+	<div id="loginModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      
+      </div>
+      <div class="modal-body">
+       
+
+
+		
+				<form class="login-form form-row ml-auto" action="<?php echo site_url( '/wp-login.php' ); ?>" method="post">
+		
+					
+                       <input type="hidden" value="<?php echo get_permalink('140'); ?>" name="redirect_to">
+					<input type="hidden" value="1" name="logincookie">
+      						    <div class="col-sm-12 mb-2">
+      						      <input type="text" name="log" class="form-control" placeholder="username">
+      						    </div>
+      						    <div class="col-sm-12 mb-2">
+      						      <input type="password" name="pwd" class="form-control" placeholder="password">
+      						    </div>
+      						    <div class="col-sm-12 mb-2">
+      						      <button  type="submit" class="btn btn-block login-button" style="background: linear-gradient(to bottom, #7a7a7a 0%,#3a393a 100%);color: #fff;"><span class="fa fa-lock"></span>  Login</button>
+      						    </div>
+						
+      					</form> 
+						
+				
+				
+
+
+
+
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+
+  
+
 <!-- Footer -->
 <div class="footer">
 	<div class="container">
