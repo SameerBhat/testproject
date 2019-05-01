@@ -741,3 +741,5 @@ function wpse51444_query_vars( $query_vars ){
     $query_vars[] = 'details';
     return $query_vars;
 }
+
+

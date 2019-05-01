@@ -65,7 +65,27 @@
 			<?php if ( is_user_logged_in() ) { ?>
 				
 				<div class="ml-auto" >
-          		<?php $user = wp_get_current_user();?>
+          		<?php $user = wp_get_current_user();
+
+
+					$post = $wp_query->post;
+
+					if($post->ID != 290){
+
+						$password_changed = get_user_meta($user->ID, 'changed_password', true );
+						if($password_changed == "" || $password_changed =='false'){
+
+							echo ("<script LANGUAGE='JavaScript'>
+							window.alert('Please Change Your Password First');
+							window.location.href='".get_permalink('290')."';
+							</script>");
+						
+						}
+					}
+				
+
+
+				  ?>
 				
 				<span class="userinfo">Welcome <strong>
 				<?php

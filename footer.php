@@ -28,7 +28,7 @@
 		
 				<form class="login-form form-row ml-auto" action="<?php echo site_url( '/wp-login.php' ); ?>" method="post">
 		
-					
+				
                        <input type="hidden" value="<?php echo get_permalink('140'); ?>" name="redirect_to">
 					<input type="hidden" value="1" name="logincookie">
       						    <div class="col-sm-12 mb-2">
